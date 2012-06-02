@@ -38,3 +38,8 @@ set convert-meta off
 
 # Use Alt/Meta + Delete to delete the preceding word
 "\e[3;3~": kill-word
+
+# Makes PAGE UP/DOWN search your command history!
+# http://linuxart.com/log/archives/2005/10/13/super-useful-inputrc/
+"\e[5~": history-search-backward
+"\e[6~": history-search-forward
