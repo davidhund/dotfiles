@@ -5,8 +5,11 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
-alias p="cd ~/Projects"
+alias p='cd ~/Dropbox/_dave/_VS/_PROJECTS/'
+alias d='cd ~/Dropbox/_dave/_VS/_DOCS/'
+alias getnounfavs='~/Dropbox/_dave/_VS/_PROJECTS/getnounfavs.sh'
+alias scour.py='/Applications/scour/scour.py'
+alias clean-svg.sh='~/Dropbox/_dave/_VS/_PROJECTS/clean-svg.sh'
 alias g="git"
 alias v="vim"
 alias m="mate ."
@@ -46,7 +49,7 @@ alias ips="ifconfig -a | grep -o 'inet6\? \(\([0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+
 alias whois="whois -h whois-servers.net"
 
 # Flush Directory Service cache
-alias flush="dscacheutil -flushcache"
+alias flushdns="dscacheutil -flushcache"
 
 # View HTTP traffic
 alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
